@@ -1,0 +1,22 @@
+   Refer to the problem statements here.->https://www.codechef.com/IEMCO16/problems/AWARA/
+  //Solution_Team_Aurors
+  #include<bits/stdc++.h>
+    using namespace std;
+    int main()
+    {
+    	int t,n;
+    	cin>>t;
+    	while(t--)
+    	{
+    		cin>>n;
+    		if(n>=1&&n<=6)
+    		{
+    			if(n==1||n==2)
+    			cout<<"Manish \n";
+    			else if(n==3||n==4)
+    			cout<<"Deep\n";
+    			else
+    			cout<<"Utsav\n";
+    		}
+    	}
+    } 
